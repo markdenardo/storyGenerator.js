@@ -1,0 +1,510 @@
+mdn@MDNs-MBP code % node
+Welcome to Node.js v14.5.0.
+Type ".help" for more information.
+> 
+> let n;
+undefined
+> const loop = (n) => {
+...   for (n; n < 101; n++) {
+.....     console.log(
+.......       n % 15 === 0
+.......         ? "CracklePop"
+.......         : n % 5 === 0
+.......         ? "Pop"
+.......         : n % 3 === 0
+.......         ? "Crackle"
+.......         : n
+.......     );
+.....   }
+... };
+undefined
+> loop(1);
+1
+2
+Crackle
+4
+Pop
+Crackle
+7
+8
+Crackle
+Pop
+11
+Crackle
+13
+14
+CracklePop
+16
+17
+Crackle
+19
+Pop
+Crackle
+22
+23
+Crackle
+Pop
+26
+Crackle
+28
+29
+CracklePop
+31
+32
+Crackle
+34
+Pop
+Crackle
+37
+38
+Crackle
+Pop
+41
+Crackle
+43
+44
+CracklePop
+46
+47
+Crackle
+49
+Pop
+Crackle
+52
+53
+Crackle
+Pop
+56
+Crackle
+58
+59
+CracklePop
+61
+62
+Crackle
+64
+Pop
+Crackle
+67
+68
+Crackle
+Pop
+71
+Crackle
+73
+74
+CracklePop
+76
+77
+Crackle
+79
+Pop
+Crackle
+82
+83
+Crackle
+Pop
+86
+Crackle
+88
+89
+CracklePop
+91
+92
+Crackle
+94
+Pop
+Crackle
+97
+98
+Crackle
+Pop
+undefined
+> 
+(To exit, press ^C again or ^D or type .exit)
+> 
+mdn@MDNs-MBP code % ls
+heads-or-tails.js		rc-code-challenge_CracklePop.js	storyGenerator.js
+mdn@MDNs-MBP code % cd
+mdn@MDNs-MBP ~ % cd desktop
+mdn@MDNs-MBP desktop % cd rc-applicaton 
+mdn@MDNs-MBP rc-applicaton % ls
+code
+mdn@MDNs-MBP rc-applicaton % cd code 
+mdn@MDNs-MBP code % ls
+heads-or-tails.js		mod1_project			rc-code-challenge_CracklePop.js	storyGenerator.js
+mdn@MDNs-MBP code % cd mod1_project 
+mdn@MDNs-MBP mod1_project % ls
+guided-module-one-project-assessment-dumbo-web-82619
+mdn@MDNs-MBP mod1_project % cd guided-module-one-project-assessment-dumbo-web-82619 
+mdn@MDNs-MBP guided-module-one-project-assessment-dumbo-web-82619 % ls
+CONTRIBUTING.md	Gemfile		Gemfile.lock	LICENSE.md	MDN_README.md	README.md	Rakefile	bin		config		db		lib
+mdn@MDNs-MBP guided-module-one-project-assessment-dumbo-web-82619 % code .
+mdn@MDNs-MBP guided-module-one-project-assessment-dumbo-web-82619 % cd
+mdn@MDNs-MBP ~ % cd desktop
+mdn@MDNs-MBP desktop % ls
+03 501.3 Amen Brother.mp3.asd						Webinar Registration Success - Zoom.mht
+082921.rb								adr
+1099-Mark-DeNardo.jpg							amen-folder
+1099-Mark-DeNardo.tiff							ana
+1500x500 (1).jpeg							ap_juce_class
+1500x500.jpeg								are you a magician_.html
+1password-recovery							audio
+2022									audio-programming-basics
+2022-01-14 11-55-38.mp4							bach-logic
+2022-01-14 12-14-57.mp4							backup
+2022-01-14 12-38-46.mp4							bastl
+After3_Digital_Music_Software						birdkids
+Aug-14-2021 14-13-55.gif						bitcoin-visa-agreement.zip
+Automatonism 3.1							bwv988
+Automatonism-3.1-new 							cake.png
+Automatonism-3.1-new  copy						cardano
+BRIEF MARK DENARDO							cornel-west-resignation.jpeg
+Bokeh Project								creative_coding
+CC-Class								crypticker
+Chiral									desktop-docs
+DR2-music-design-doc-1484a27f73d63eaff75413731182a59a5691fc99		dr2
+DinoRun2-1f6bb199455e4e7cc64b0fc6a3b4dbf089b1a5f7			dr2-logic
+DinoRun2-1f6bb199455e4e7cc64b0fc6a3b4dbf089b1a5f7 2			dr2-nu-project
+DinoRun2-1f6bb199455e4e7cc64b0fc6a3b4dbf089b1a5f7.zip			dw-m8
+Doublet Project								elementary
+Executive								ess
+FC									example-app-091521
+GIANT-lessons								eyes.png
+HardSoftcore_Mac							fc-hydra
+Hardcore.app								first-angel.mp4
+IMG_1899.jpeg								frontend
+IMG_2640.JPG								giant
+IMG_8795.heic								giantroomcode
+IMG_9479.jpeg								glow-master
+JUCE									group_forward2wide.jpeg
+JUCE-projects								hackerrack
+JUCE-projects-2021							haskell
+JUCE_old								helsinki
+LWScreenShot 2022-02-25 at 11.16.37 AM.png				hydra
+Left									hydra-scripts
+Left-master								ifixit
+LibPdIntegration-master 2						jam-2.mov
+MDN-eligibity-verification.pdf						jam.mov
+MDN-w9.pdf								livelab
+MEDIA									loop_amen.flac
+Magic-Square-master							loop_amen_full.flac
+Mark-DeNardo-registration.zip						loop_breakbeat.flac
+Mark-DeNardo.jpeg							m8-backup
+MarkDeNardo_THE GIANT ROOM_Creative Tech Resident Contract-signed.pdf	machine-learning-pics
+Max43TutorialsAndTopics (1).pdf						mars-api
+Max43TutorialsAndTopics.pdf						max-class
+NY State Excelsior Pass.html						mdn-docs
+NY State Excelsior Pass_files						mdn-pass.pdf
+PDF									mdn-site
+PRACTICE								mdn-vax-side-b.png
+Pd-0.51-1								mdn-vax.png
+Pd-0.51-4.app								mdn_resumes
+Pluck Project								midi-ditties
+QA-Test									midilooper_buggy_firmware
+ReadMe.rtf								moonfarmer
+SCREENSHOTS								moonproject
+SE-Curriculum-070721							moonwork
+Screen Recording 2022-02-24 at 4.41.39 PM.mov				mov
+Screen Recording 2022-02-24 at 4.42.53 PM.mov				native
+Screen Recording 2022-03-07 at 1.40.56 PM.mov				new-code-folder 2
+Screen Recording 2022-03-13 at 5.12.49 PM.mov				new_mars
+Screen Recording 2022-03-13 at 5.15.27 PM.mov				newscreenshots
+Screen Shot 2022-01-16 at 5.25.33 PM.png				node
+Screen Shot 2022-01-18 at 4.26.28 PM.png				nu-hydra
+Screen Shot 2022-01-29 at 7.57.07 PM.png				ocan
+Screen Shot 2022-01-29 at 8.17.11 PM.png				ocan-backup
+Screen Shot 2022-01-29 at 8.17.41 PM.png				of_v0.11.2_osx_release
+Screen Shot 2022-01-29 at 8.17.48 PM.png				of_v0.11.2_osx_release.zip
+Screen Shot 2022-02-01 at 12.39.16 AM.png				op1_243 (1).op1
+Screen Shot 2022-02-17 at 10.35.46 PM.png				owl.m4a.asd
+Screen Shot 2022-03-07 at 4.14.18 PM.png				pd-ml
+Screen Shot 2022-03-09 at 4.39.37 PM.png				pd-tutorials
+Screen Shot 2022-03-09 at 4.39.46 PM.png				peter-resumes
+Screen Shot 2022-03-09 at 5.38.35 PM.png				php
+Screen Shot 2022-03-11 at 4.35.46 PM.png				pico-8
+Screen Shot 2022-03-11 at 4.37.14 PM.png				pico_8
+Screen Shot 2022-03-13 at 8.02.43 PM.png				pluginTemplate
+Screen Shot 2022-03-13 at 9.49.20 PM.png				plutus
+Screen Shot 2022-03-13 at 9.49.29 PM.png				plutus-nu
+Screen Shot 2022-03-14 at 5.43.48 PM.png				ppp
+Screen Shot 2022-03-14 at 5.44.28 PM.png				rc-applicaton
+Screen Shot 2022-03-14 at 5.45.52 PM.png				re-fest
+Screen Shot 2022-03-14 at 5.46.00 PM.png				react-pico-8-master
+Screen Shot 2022-03-16 at 5.29.55 PM.png				react-redux-hooks-practice-master
+Screen Shot 2022-03-20 at 10.26.15 PM.png				redux
+Screen Shot 2022-03-20 at 9.18.02 PM.png				refest
+Screen Shot 2022-03-20 at 9.33.54 PM.png				renoise
+Screen Shot 2022-03-21 at 5.23.16 PM.png				roblox-scripts
+Screen Shot 2022-03-21 at 5.24.57 PM.png				ruby-blockchain
+Screen Shot 2022-03-21 at 5.29.55 PM.png				rust
+Screen Shot 2022-03-21 at 5.30.04 PM.png				s80-37406.jpg
+Screen Shot 2022-03-21 at 5.38.23 PM.png				skateboards
+Screen Shot 2022-03-21 at 5.45.42 PM.png				something_new
+Screen Shot 2022-03-21 at 5.45.45 PM.png				soul_folder
+Screen Shot 2022-03-21 at 5.45.46 PM.png				spectacle
+Softcore.app								sven.png
+Superberry								te.js
+TeamCard								treact
+Terzan_7 copy.jpeg							tt-app
+Tesseract								tt-app 2
+The OPZ Notebook.png							tt-app-nu
+The_Giant_Room								untitled folder
+Touch Bar Shot 2022-03-13 at 1.35.21 PM.png				van-gogh.m4a
+UnityLibPD								wood bio
+mdn@MDNs-MBP desktop % cd rc-applicaton 
+mdn@MDNs-MBP rc-applicaton % ls
+code	project
+mdn@MDNs-MBP rc-applicaton % cd project 
+mdn@MDNs-MBP project % ls
+storyGenerator.js
+mdn@MDNs-MBP project % code .
+mdn@MDNs-MBP project % ls
+storyGenerator
+mdn@MDNs-MBP project % cd storyGenerator 
+mdn@MDNs-MBP storyGenerator % code .
+mdn@MDNs-MBP storyGenerator % node
+Welcome to Node.js v14.5.0.
+Type ".help" for more information.
+> //storyGenerator by MDN
+undefined
+> //instructions:
+undefined
+> //1. open terminal
+undefined
+> //2. run node
+undefined
+> //3. copy code paste in node
+undefined
+> //4. there are two commands: start() and add(array, string)
+undefined
+> //5. start() -- runs the code and generates a new story
+undefined
+> //6. add(array,string) -- adds new strings() to assigned array (character, setting, or plot) example: add(character, 'Ada Lovelace')
+undefined
+> 
+> function start() {
+...   const response = false;
+...   const character = ["dog", "cat", "person"];
+...   const setting = ["mars", "baseball field", "swimming pool"];
+...   const plot = ["dinner", "walk", "fighting"];
+... 
+...   const rand = (array) => {
+...     return array[Math.floor(Math.random() * array.length)];
+...   };
+... 
+...   const add = (array, string) => {
+...     array.push(string);
+...   };
+... 
+...   const story = (character, setting, plot) => {
+...     const state =
+...       ((story.character = character),
+.....       (story.setting = setting),
+.....       (story.plot = plot));
+...   };
+... 
+...   const makeStory = (story) => {
+...     console.log(
+.....       `A ${rand(character)} went to ${rand(setting)} for ${rand(plot)}`
+.....     );
+...   };
+... 
+...   story(character, setting, plot);
+...   makeStory(story);
+... }
+undefined
+> start();
+A cat went to baseball field for walk
+undefined
+> start()
+A person went to swimming pool for fighting
+undefined
+> add(character,'Ada Lovelace')
+Uncaught ReferenceError: add is not defined
+> 
+(To exit, press ^C again or ^D or type .exit)
+> 
+mdn@MDNs-MBP storyGenerator % node
+Welcome to Node.js v14.5.0.
+Type ".help" for more information.
+> //storyGenerator by MDN
+undefined
+> //instructions:
+undefined
+> //1. open terminal
+undefined
+> //2. run node
+undefined
+> //3. copy code paste in node
+undefined
+> //4. there are two commands: start() and add(array, string)
+undefined
+> //5. makeStory() -- runs the code and generates a new story
+undefined
+> //6. add(array,string) -- adds new strings() to assigned array (character, setting, or plot) example: add(character, 'Ada Lovelace')
+undefined
+> 
+> const response = false;
+undefined
+> const character = ["dog", "cat", "person"];
+undefined
+> const setting = ["mars", "baseball field", "swimming pool"];
+undefined
+> const plot = ["dinner", "walk", "fighting"];
+undefined
+> 
+> const rand = (array) => {
+...   return array[Math.floor(Math.random() * array.length)];
+... };
+undefined
+> 
+> const add = (array, string) => {
+...   array.push(string);
+... };
+undefined
+> 
+> const story = (character, setting, plot) => {
+...   const state =
+...     ((story.character = character),
+.....     (story.setting = setting),
+.....     (story.plot = plot));
+... };
+undefined
+> 
+> const makeStory = (story) => {
+...   console.log(
+.....     `A ${rand(character)} went to ${rand(setting)} for ${rand(plot)}`
+.....   );
+... };
+undefined
+> 
+> story(character, setting, plot);
+undefined
+> makeStory(story);
+A person went to mars for fighting
+undefined
+> makeStory()
+A dog went to baseball field for fighting
+undefined
+> add(character,'Ada Lovelace')
+undefined
+> makeStory()
+A person went to mars for walk
+undefined
+> makeStory()
+A dog went to mars for walk
+undefined
+> makeStory()
+A Ada Lovelace went to baseball field for walk
+undefined
+> 
+(To exit, press ^C again or ^D or type .exit)
+> 
+mdn@MDNs-MBP storyGenerator % node
+Welcome to Node.js v14.5.0.
+Type ".help" for more information.
+> //storyGenerator by MDN
+undefined
+> //instructions:
+undefined
+> //1. open terminal
+undefined
+> //2. run node
+undefined
+> //3. copy code paste in node
+undefined
+> //4. there are two commands: makeStory() and add(array, string)
+undefined
+> //5. makeStory() -- runs the code and generates a new story
+undefined
+> //6. add(array,string) -- adds new strings() to assigned array (character, setting, or plot) example: add(character, 'Ada Lovelace')
+undefined
+> 
+> const response = false;
+undefined
+> const character = ["dog", "cat", "person"];
+undefined
+> const setting = ["mars", "baseball field", "swimming pool"];
+undefined
+> const plot = ["dinner", "walk", "fighting"];
+undefined
+> 
+> const rand = (array) => {
+...   return array[Math.floor(Math.random() * array.length)];
+... };
+undefined
+> 
+> const add = (array, string) => {
+...   array.push(string);
+... };
+undefined
+> 
+> const story = (character, setting, plot) => {
+...   const state =
+...     ((story.character = character),
+.....     (story.setting = setting),
+.....     (story.plot = plot));
+... };
+undefined
+> 
+> const makeStory = (story) => {
+...   console.log(
+.....     `A ${rand(character)} went to ${rand(setting)} for ${rand(plot)}`
+.....   );
+... };
+undefined
+> 
+> story(character, setting, plot);
+undefined
+> makeStory(story);
+A dog went to mars for dinner
+undefined
+> 
+> makeStory
+[Function: makeStory]
+> makeStory()
+A person went to swimming pool for walk
+undefined
+> add(character,'Snoopy')
+undefined
+> makeStory()
+A dog went to mars for walk
+undefined
+> makeStory()
+A dog went to mars for fighting
+undefined
+> makeStory()
+A person went to baseball field for dinner
+undefined
+> makeStory()
+A dog went to baseball field for fighting
+undefined
+> makeStory()
+A cat went to baseball field for fighting
+undefined
+> makeStory()
+A dog went to swimming pool for walk
+undefined
+> makeStory()
+A Snoopy went to mars for fighting
+undefined
+> makeStory()
+A Snoopy went to swimming pool for fighting
+undefined
+> makeStory()
+A person went to mars for dinner
+undefined
+> makeStory()
+A Snoopy went to mars for walk
+undefined
+> makeStory()
+A person went to swimming pool for fighting
+undefined
+> add()
+Uncaught TypeError: Cannot read property 'push' of undefined
+    at add (repl:2:9)
+> makeStory()
+A person went to swimming pool for walk
+undefined
+> 
