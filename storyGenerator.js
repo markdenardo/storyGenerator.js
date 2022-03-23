@@ -7,7 +7,6 @@
 //5. makeStory() -- runs the code and generates a new story
 //6. add(array,string) -- adds new strings() to assigned array (character, setting, or plot) example: add(character, 'Ada Lovelace')
 
-const response = false;
 const character = ["dog", "cat", "person"];
 const setting = ["mars", "baseball field", "swimming pool"];
 const plot = ["dinner", "walk", "fighting"];
